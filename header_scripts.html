@@ -1,0 +1,39 @@
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WPQ697');</script>
+<!-- End Google Tag Manager -->
+
+<!-- LinkMink -->
+<script src="https://cdn.linkmink.com/lm-js/2.2.0/lm.js"></script>
+
+<!-- GrowSumo / PartnerStack -->
+<script type='text/javascript'>(function() {var gs = document.createElement('script');gs.src = 'https://snippet.growsumo.com/growsumo.min.js';gs.type = 'text/javascript';gs.async = 'true';gs.onload = gs.onreadystatechange = function() {var rs = this.readyState;if (rs && rs != 'complete' && rs != 'loaded') return;try {growsumo._initialize('pk_ub6nj8GNnK3hIuPEpTgE5GeeN2DtZtHB');if (typeof(growsumoInit) === 'function') {growsumoInit();}} catch (e) {}};var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(gs, s);})();</script>
+<style>
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC');
+</style>
+<script type="text/javascript">
+	jQuery('select').each(function(i, select){
+    var $select = jQuery(select);
+    $select.find('option').each(function(j, option){
+        var $option = jQuery(option);
+        // Create a radio:
+        var $radio = jQuery('<input type="radio" />');
+        // Set name and value:
+        $radio.attr('name', $select.attr('name')).attr('value', $option.val());
+        // Set checked if the option was selected
+        if ($option.attr('selected')) $radio.attr('checked', 'checked');
+        // Insert radio before select box:
+        $select.before($radio);
+        // Insert a label:
+        $select.before(
+          jQuery("<label />").attr('for', $select.attr('name')).text($option.text())
+        );
+        // Insert a <br />:
+        $select.before("<br/>");
+		});
+		$select.remove();
+	});
+</script>
